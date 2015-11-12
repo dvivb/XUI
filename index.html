@@ -1,0 +1,169 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie9 ie8 ie7" lang="pt-br"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie9 ie8" lang="pt-br"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie9" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+<head>
+
+	<!-- CONFIGS -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>X UI Framework</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css"  />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css"  />
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<!-- Home -->
+		<div id="home" class="home">
+
+			<div class="wrap">
+
+				<h1>X UI Framework</h1>
+				<h2>Standing on a giant's shoulders, and share the freedom.</h2>
+
+				<ul class="options">
+					<li>
+						<a href="#download">
+							<big>NEW</big>
+							XUI front end &nbsp;design tools
+						</a>
+					</li>
+
+					<li>
+						<a href="#what">
+							<big>XUI</big>
+							About XUI  introductions
+						</a>
+					</li>
+
+					<li>
+						<a href="#documentation">
+							<big>Docs</big>
+							The directory structure that
+						</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+		<!-- /Home -->
+
+		<!-- Download -->
+		<div id="download" class="download">
+
+			<div class="wrap">
+
+				<h2>Share all the world glorious</h2>
+				<h3><a href="#home">Back Right Home</a></h3>
+				<ul class="options big">
+					<li>
+						<a href="tool.html">
+							<big>Tool</big>
+							Front end design tools
+						</a>
+					</li>
+
+					<li>
+						<a href="https://github.com/dvivb/XUI" target="_block">
+							<big>Download</big>
+							Demo + core
+						</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+
+		</div>
+		<!-- /Download -->
+
+		<!-- Documentation -->
+		<div id="documentation" class="documentation scrollv">
+
+			<div class="wrap">	
+
+				<h2>Frame Generator</h2>
+				<code>
+					<pre>
+					|- js	
+					|- css
+					|- less
+					|- fonts
+					|- themes
+					|- images
+					|- plugins
+					</pre>
+				</code>
+				<ul class="options small">
+						<li><a href="#home">
+							<big>Back</big>
+							Left Home
+						</a>
+						</li>
+				</ul>
+
+			</div>
+
+		</div>
+		<!-- /Documentation -->
+
+		<!-- What -->
+		<div id="what" class="what scrollv">
+
+			<div class="wrap">
+
+					<h2>XUI Contains variety of interface elements and control</h2>
+					<ul class="list">
+						<li>Basic controls: basic interface unit, used to build web applications such as buttons, text labels, input boxes, etc.</li>
+						<li>Components: by more than one of the basic control of complex interface unit.Such as form, menus, forms, etc.</li>
+						<li>Javascript components: these components to normal use will use Javascript.Some call to enable Javascript components need to manually.</li>
+						<li>View: the view is the basic control and component combinations used to show the general content of website, such as comment on the view and the article preview list view.</li>
+					</ul>
+
+					<ul class="options small">
+						<li><a href="#home">
+							<big>Back</big>
+							Upper Home
+						</a>
+						</li>
+					</ul>
+
+			</div>
+
+		</div>
+		<!-- /What -->
+
+	</div>
+
+
+
+
+
+	<!-- jQuery -->
+	<script src="js/jquery-1.8.1.min.js" ></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.1.min.js"><\/script>')</script>
+	<script src="js/scrollTo.min.js" ></script>
+	<script src="js/jquery.fullContent.min-1.js" ></script>
+	<script type="text/javascript">
+		$('#container').fullContent({
+		    stages: 'div',
+		    mapPosition: [{v: 1, h: 3}, {v: 1, h: 1}, {v: 1, h: 6}, {v: 3, h: 3}],
+		    stageStart: 1,
+		    idComplement: 'page_'
+		});
+	</script>
+	
+	</body>
+
+</html>
